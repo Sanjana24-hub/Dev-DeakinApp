@@ -1,0 +1,17 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Space between form elements */
+    max-width: 300px; /* Limit width of the form */
+    margin: auto; /* Center form in its container */
+  }
+  
